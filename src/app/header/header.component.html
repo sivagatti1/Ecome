@@ -1,0 +1,10 @@
+<div class="header">
+
+    <ul style="margin-right: 10px;display: flex;" *ngFor="let menu of menuItmes">
+        <li [routerLink]="menu.menulink">{{menu.menuname}}</li>
+    </ul>
+    <ul style="margin-left: auto;margin-right: 10px;">
+        <li>Cart {{cartitems.length}}</li>
+    </ul>
+    
+</div>

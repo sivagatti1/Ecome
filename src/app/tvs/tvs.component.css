@@ -1,0 +1,12 @@
+.productcard{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #ccc;
+}
+.imgsrc{
+    height: 150px;
+    width: 150px;
+}
+.d-flex{
+    display: flex;
+}

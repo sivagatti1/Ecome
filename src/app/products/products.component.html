@@ -1,0 +1,9 @@
+<div class="d-flex">
+    <div class="productcard" *ngFor="let product of products">
+        <img class="imgsrc" [src]="product.imgSrc" alt="">
+        <div style="display: flex; justify-content: space-around;">
+            <div>Cost: {{product.cost}}</div>
+            <button (click)="AddtoCart(product)">Add to cart</button>
+        </div>
+    </div>
+</div>
